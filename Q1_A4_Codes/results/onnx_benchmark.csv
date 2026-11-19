@@ -1,0 +1,7 @@
+model,test_accuracy_percent,mean_cpu_latency_ms_per_image,onnx_model_size_mb,test_images_measured,timed_images
+MobileNetV2-Baseline,50.63,0.246143,9.1469,10000,8720
+MobileNetV2-Distilled,54.31,0.285765,9.147,10000,8720
+SqueezeNet-Baseline,13.12,0.077961,3.0611,10000,8720
+SqueezeNet-Distilled,22.1,0.062564,3.0612,10000,8720
+EfficientNetLite0-Baseline,51.48,0.693442,13.0491,10000,8720
+EfficientNetLite0-Distilled,54.46,0.699685,13.0497,10000,8720

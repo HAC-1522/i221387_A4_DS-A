@@ -1,0 +1,51 @@
+{
+  "architecture": {
+    "depth": 6,
+    "channels": [
+      32,
+      128,
+      96,
+      64,
+      128,
+      32
+    ],
+    "kernels": [
+      3,
+      3,
+      3,
+      3,
+      5,
+      3
+    ],
+    "conv_types": [
+      "standard",
+      "standard",
+      "standard",
+      "depthwise",
+      "depthwise",
+      "standard"
+    ],
+    "activations": [
+      "silu",
+      "gelu",
+      "gelu",
+      "relu6",
+      "gelu",
+      "silu"
+    ],
+    "input_resolution": 32
+  },
+  "architecture_id": "b282dbbd4c",
+  "validation_accuracy": 64.43333333333334,
+  "fitness": 64.43333333333334,
+  "feasible": true,
+  "rejection_reason": "",
+  "cpu_latency_ms": 2.2666380000373465,
+  "mean_cpu_latency_ms": 2.3095811999610305,
+  "model_size_mb": 0.7981386184692383,
+  "parameter_tensor_mb": 0.7815933227539062,
+  "peak_process_rss_mb": 1930.68359375,
+  "latency_measurement": "batch=1, CPU, median over timed iterations",
+  "memory_measurement": "process RSS snapshot; not isolated model peak",
+  "generation": 4
+}

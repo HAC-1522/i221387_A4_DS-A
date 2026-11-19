@@ -1,0 +1,36 @@
+{
+  "depth": 6,
+  "channels": [
+    32,
+    128,
+    96,
+    64,
+    128,
+    32
+  ],
+  "kernels": [
+    3,
+    3,
+    3,
+    3,
+    5,
+    3
+  ],
+  "conv_types": [
+    "standard",
+    "standard",
+    "standard",
+    "depthwise",
+    "depthwise",
+    "standard"
+  ],
+  "activations": [
+    "silu",
+    "gelu",
+    "gelu",
+    "relu6",
+    "gelu",
+    "silu"
+  ],
+  "input_resolution": 32
+}
